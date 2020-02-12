@@ -9,4 +9,4 @@ Vó, vou te ensinar a programar em javascript.
 👵🏻 O que é javascript?
 --------------------
 
-É uma das muitas linguagens de programação. Nele quem vai seguir as receitas que você escrever pode ser o seu próprio navegador da internet.
+É uma das muitas linguagens de programação. Nela quem vai seguir as receitas que você escrever pode ser o seu próprio navegador da internet.
