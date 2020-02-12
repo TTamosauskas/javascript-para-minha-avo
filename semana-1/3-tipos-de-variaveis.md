@@ -1,4 +1,4 @@
-Os tipos de variaveis
+Os tipos de variáveis
 ========================
 
 Existem cinco tipos principais de variaveis.
