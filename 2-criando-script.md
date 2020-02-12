@@ -1,7 +1,7 @@
 Meu primeiro script
 =====================
 
-E em vez de um caderno de receitas, nossos scripts precisam ser criados no computador.
+E em vez de um caderno de receitas nossos scripts precisam ser criados no computador.
 
 👵🏻 Como eu crio um script?
 --------------------------------
