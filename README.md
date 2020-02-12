@@ -1,5 +1,5 @@
 # Javascript para minha avó
 
-Tutorial absurdamente mastigado para que qualquer pessoa possa aprender a programar
+Tutoriais absurdamente mastigado para que qualquer pessoa possa aprender a programar
 
 
