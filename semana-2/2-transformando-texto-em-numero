@@ -1,0 +1,38 @@
+  
+Transformando texto em número
+================================
+
+Como vimos não é possivel somar números com texto. É como seu você tivesse que responder, qual a soma de "tatu" com "bola"? 
+
+👵🏻 Tatu Bola risos
+--------------------
+
+É exatamente isso que o javascript faz. Teste o script abaixo.
+
+```javascript
+  var x = "Tatu"
+  var y = "Bola"
+  var soma = x + y;
+  document.write(soma);
+```
+Por isso, se você pedir para ele somar duas strings "1" + "1", ele vai responder "11" e não 2
+
+👵🏻 Dá para corrigir isso?
+---------------------------
+
+Dá sim, o codigo abaixo faz exatamente isso.
+
+```javascript
+  var x = 1
+  var y = "1"
+  var z = Number(y)
+  var soma = x + z
+  document.write(soma);
+```
+Note que na terceira linha do código a expressão Number( ) transformará em número a string dentro dela. 
+
+Desta forma poderemos usá-la para fazer operações matemáticas.
+
+Exercício
+===========
+Brinque um pouco com o código acima, troque os valores e veja como ele se comporta
