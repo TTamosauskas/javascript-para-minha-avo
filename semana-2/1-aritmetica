@@ -1,0 +1,40 @@
+Operações Matemáticas
+=======================
+
+Hoje vamos aprender algumas operações matemáticas
+
+👵🏻 Você não falou que ia ter que fazer conta
+----------------------------------------------
+
+Não vai, nós vamos mandar o computador fazer as contas para nós.
+
+A primeira coisa a entender é que para entrar em uma conta precisamos de variaveis que sejam números, e não strings. Você consegue apontar no código abaixo qual o tipo de cada uma fas variaveis?
+
+```javascript
+  var x = 10
+  var y = 2.5
+  var z = "10"
+```
+
+Respostas:
+
+* x é um intereger (numero inteiro)
+* y é um float (número decimal
+* z é uma string
+
+Apenas os dois primeiros (x e y) podem ser usados em contas. O terceiro (z) não, pois por conta as aspas o computador entende que é um texto.
+
+
+Exercício
+===============
+
+Use o código abaixo e troque as variaveis da última linha. Tente entender como o computador processa o script cada vez que os valores são alterados
+
+```javascript
+  var x = 10
+  var y = 2,5
+  var z = "10"
+  
+   document.write(x + y);
+```
+
