@@ -32,7 +32,7 @@ Note que o número da última linha é referente a ordem com que o item está na
 👵🏻 Mas o 1 não deveria ser batom? Apareceu carteira
 ------------------------------------------------------
 
-Isso ocorre porque a contagem começa com zero. Vejao exercicio abaixo
+Isso ocorre porque a contagem começa com zero. Veja o exercicio abaixo
 
 Exercicio
 ==========
