@@ -37,7 +37,7 @@ Isso ocorre porque a contagem começa com zero. Veja o exercicio abaixo
 Exercicio
 ==========
 
-Mudando o conteúdo abaixo no seu script faça aparecer o resultado **espelho**
+Use o código abaixo e veja o que aparece. Em seguida mude o conteúdo abaixo no seu script e faça aparecer o resultado **espelho**
 
 ```javascript
 var bolsa = ["baton", "carteira", "espelho", "chaves"];
