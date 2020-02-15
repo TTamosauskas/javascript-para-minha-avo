@@ -1,6 +1,12 @@
 # Javascript para minha avó
 
-Tutoriais absurdamente mastigado para que qualquer pessoa possa aprender a programar em javascript
+> "Se você não consegue explicar algo de modo simples é porque não entendeu bem a coisa"- Albert Einstein
+    
+Inspirado pela citação acima, atribuita a Albert Einstein, resolvi escrever esta série de artigos onde de forma absurdamente mastigada tento ensinar qualquer pessoa que queira a programar em javascript.
+
+Pensei que se pudesse ensinar a minha avó este objetivo estaria atendido. 
+
+Você está pronta vovó?
 
 
 👵🏻 O que é programar?
