@@ -1,0 +1,52 @@
+Funções
+==========
+
+O que você faz ao acordar?
+
+👵🏻 Eu lavo rosto, escovo os dentes e penteio o cabelo
+----------------------------------------------------
+
+É como se você todo dia seguisse o mesmo script. Em programação quando fazemos algo várias vezes utilizamos uma função. 
+
+Veja o exemplo abaixo:
+
+```javascript
+function acordar(){
+      alert("Lavar o rosto");
+      alert("Escovar os dentes");
+      alert("Pentear o cabelo");
+}
+
+acordar();
+```
+
+As primeiras linhas criam uma função chamada **hello**. A última linha aciona essa essa função.
+
+Na pratica cada vez que escreveremos acordar() tudo o que estiver entre os sinais { } vai se repetir. 
+
+Exercicio
+-----------
+
+No script acima, usando o Console **(F12)**. Digite acordar(). Se tudo estiver certo as frases irão aparecer novamente.
+
+
+Função com parámetros:
+-----------------------
+
+Outro recurso poderoso das funções é a capacidade de receber parametros.
+
+```javascript
+function soma(numero1, numero2) {
+  var resultado = numero1 + numero2
+  alert(resultado)
+};
+
+soma(1,2)
+```
+
+A função acima vai pegar os valores 1 e 2 e usar para fazer uma soma. Experimente repetir a última linha com dois paraetros diferentes e veja o que acontece.
+
+Exercicio
+============
+
+Crie uma função chamada **multiplicacao()** que multiplique dois parametros que você enviar.
