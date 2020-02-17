@@ -1,0 +1,53 @@
+Intervalos e Esperas
+=======================
+
+Outro tipo de repetição são aquelas baseadas no tempo. Por exemplo, você sabia que a cada 10 segundos nasce um bebê no mundo?
+
+👵🏻 Eita povo que não perde tempo
+------------------------------------
+
+Não mesmo. Vamos criar um script que a cada 10 segundos envia um alerta de bebê novo:
+
+```javascript
+function bebe(){
+  alert("Nasceu um bebê novo!");
+}
+
+setInterval(bebe, 10000)
+
+```
+
+Como já vimos antes as três primeiras linhas apenas criam uma função chamada bebe que dispara um alerta.
+
+A última linha é a novidade. Ela define um intervalo de 10 segundos e então dispara a função.
+
+👵🏻 Mas porque está escrito 10000 se são só 10 segundos?
+---------------------------------------------------------
+
+Isso é porque o computador é muito rápido. Ele conta em mile-segundos e 10000 milesegundos são igual a 10 segundos.
+
+Timeout
+--------
+
+Outra forma de trabalhar com o tempo é usar o **setTimeout**
+
+Ele não define uma repetição e sim um atraso, uma espera.
+
+O código abaixo vai simplesmente esperar 5 segundos e então colocar uma mensagem na tela:
+
+
+```javascript
+function exibeAlgo(){
+ document.write("Passaram 5 segundos")
+}
+
+setTimeout(exibeAlgo, 5000) 
+
+```
+
+Exercício
+===========
+
+Crie uma função que envie uma caixa de alerta com uma mensagem de amor para seu neto. 
+
+Em seguida defina um intervalo de 5 segundos entre uma mensagem e outra.
