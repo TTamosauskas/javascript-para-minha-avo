@@ -1,0 +1,51 @@
+Estruturas de repetição
+=========================
+
+Hoje veremos duas maneiras de ensinar nosso programa a fazer tarefas repetitivas.
+
+👵🏻 Mas essa não era a tarefa das funções?
+------------------------------------------
+
+Uma função diz o que seré repetido as estruturas que vamos aprender hoje dizerm quantas vezes a repetição será feita.
+
+Usando o for()
+-----------------
+
+Quando sabemos quantas vezes queremos repetir algo usamos o **for()**. O código abaixo vai contar até 10 por exemplo:
+
+```javascript
+for (var numero=1; numero<=10; numero++){
+  console.log(numero);
+}
+```
+Faça o teste usando o console do seu navegador (F12).
+
+A primeira linhas é a mais importantes aqui.. Ela junta varias coisas que aprendemos antes. Para deixar bem claro:
+
+* ***for (     )*** define uma estrutura de repetição
+* **var numero=1** cria uma variavel número com valor 1
+* **numero<=** define a condição de repetição, ou seja repita se o numero for menor ou igual a 10
+* **numero++** soma 1 ao numero inicial
+
+Por fim o alert(numero) vai nos enviar uma caixa de alerta com a contagem atual.
+
+Usando o while()
+------------------
+
+Quando não se sabe o tamanho do intervalo de reptição usamos o **while()**. 
+
+```javascript
+var numero = 6789587585;
+while(numero>100){
+  console.log(numero);
+  numero /= 50;
+}
+```
+
+While significa **Enquanto** em inglês. O código abaixo vai se repetir enquanto a variavel número for menor que 100 e a cada repetição dividirá este valor por 50
+
+Exercicio
+===========
+
+É uma convenção usarmos i em vez de número nas estruturas de repetição. Copie um dos dois scripts acima trocando o nome desta variavel e garantindo que ela ainda funciona adequadamente.
+
