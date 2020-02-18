@@ -1,0 +1,54 @@
+Else e Else if
+=================
+
+Um comando complementar ao **if()** é o **else()**. Em inglês ele literalmente significa **senão**.
+
+Observe a função abaixo:
+
+
+```javascript
+function retornaSexo(sexo){
+    if (sexo == "M")
+    {
+    document.write("Masculino");
+    }
+    else 
+    {
+    document.write("Feminino");
+    }
+                         }
+   
+retornaSexo("F")
+```
+
+Neste caso como o atributo enviado foi "F" ele vai escrever "Feminino" na tela.
+
+👵🏻 Mas se eu escrever X também vai retornar Feminino.. tem algo errado ai
+---------------------------------------------------------------------------
+
+Bem observado. Para corrigir isso podemos usar o comando else if ().. ficaria assim:
+
+
+```javascript
+function retornaSexo(sexo){
+    if (sexo == "M")
+    { document.write("Masculino"); }
+    else if (sexo == "F") 
+    {
+    document.write("Feminino");
+    }
+    else 
+    {document.write("Outros")
+    }
+}
+   
+retornaSexo("F")
+```
+
+ Exercicio
+ ===========
+Copiando o codigo acima crie uma função chamada Nacionalidade() ela deve verificar se o parametro é BR para Brasileiros e AR para Argentinos. Todos os demais devem entrar na categoria Outros.
+ 
+ 
+ 
+ 
