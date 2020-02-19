@@ -1,0 +1,53 @@
+
+Criando elementos
+==================
+
+Não basta apenas destruir. É preciso também criar. Por isso hoje vamos aprender como dar origem a novos elementos HTML em nossas páginas usando javascript.
+
+O exmeplo abaixo cria um link dentro da página. É bem parecido com o exemplo da última aula:
+
+```javascript
+<div id="app">
+<span id="frase"></span>
+</div>
+
+<script>
+var Elemento = document.getElementById('frase');
+var ElementoLink = document.createElement("a");
+var texto = document.createTextNode("Texto do link");
+
+ElementoLink.appendChild(texto);
+Elemento.appendChild(ElementoLink);
+</script>
+```
+
+👵🏻 Não deu certo. Só tem um texto sem link
+--------------------------------------------
+
+Aha! Isso aconteceu porque para um link funcionar ele precisa do atributo com algum endereço, por exemplo **href="http://wikipedia.org"**
+
+Vamos apena sincluir uma quarta linha no exemplo anterior:
+
+```javascript
+<div id="app">
+<span id="frase"></span>
+</div>
+
+<script>
+var Elemento = document.getElementById('frase');
+var ElementoLink = document.createElement("a");
+var texto = document.createTextNode("Texto do link");
+ElementoLink.setAttribute('href', 'http://wikipedia.org');
+
+ElementoLink.appendChild(texto);
+Elemento.appendChild(ElementoLink);
+</script>
+```
+
+Exercicio
+==========
+
+Agora é a sua vez. Inclua um novo atributo no link.. em vez do href, ele se chamará **title** e em vez de um endereço deve ter "Wikipedia".
+
+Se der tudo certo um texto descritivo aparecerá quando o mouse parar sobre o link.
+
