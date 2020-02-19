@@ -1,0 +1,46 @@
+
+Apagando elementos
+==================
+
+Agora que já temos os seletores podemos fazer coisas com os elementos html.. e a primeira coisa será aprender a deleta-los
+
+
+👵🏻 Adoro destruir
+--------------------
+
+Quem não gosta. E no javascript existem várias formas de fazer isso. Para todos os exmeplos vamos considerar o codigop html e o seletor abaixo:
+
+```html
+<div id="app">
+<span id="frase">Frase</span>
+</div>
+
+<script>
+Elemento = document.getElementById('frase');
+Elemento.innerHTML = '';
+</script>
+```
+Para testar, apenas inclua as linhas demonstrada sno final do nosso código. Tente testar todos eles antes de continuar.
+
+Criando String Vazia
+---------------------------
+
+```javascript
+Elemento.innerHTML = '';
+```
+
+Este exemplo apenas diz que o innerHTML, ou seja o codigo dentro da tag é igual a uma string vazia.
+
+Removendo o Elemento
+--------------------------------
+
+```javascript
+Elemento.remove();
+```
+
+O exemplo mais simples ficou para o final. Ele apena pega o seletor e inclui a função remove() apagando ele e todo seu conteúdo.
+
+Exercicio
+===========
+
+Mudando o código acima, crie uma linha que apague todas a tag app.
