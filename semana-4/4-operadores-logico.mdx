@@ -19,21 +19,57 @@ Legal! Entao basta ter uma das duas frutas para você trazer alguma para casa.
 
 Operadores lógicos servem exatamente para isso. Eles permitem a combinação de condições para uma tomada de decisão mais complexa. 
 
-Operador AND
+Operador &&
 ==============
 
-Este primeiro perador é igual o primeiro caso que vimos.
+O Operado significa **E** e ele une duas condições. Este primeiro exemplo será igual o do primeiro caso que vimos. 
+
+```javascript
+var dinheiro = 100;
+var sabado = true;
+
+if (sabado && dinheiro > 0){
+alert("Dia de feira");
+} else {
+	alert("Hoje não tem feira")
+}
+```
+Ou seja, se sa variavel sabado for verdadeira e a variavel dinheiro for maior que 0, então haverá o alerta "Dia de Feira".
+
+Brinque com o valor das variaveis e veja a diferença no comportamento do programa.
+
+Operador ||
+==============
+
+Este operador significa **OU**. Ou seja, se uma variavel por verdadeira já bastará. Veja o exemplo:
+
+```javascript
+var banana = true;
+var maca = true;
+
+if (banana || maca){
+alert("Tem fruta");
+} else {
+	alert("Não tem fruta")
+}
+```
+
+Exercicio
+===========
+
+Preencha o script abaixo com as condições de se ter pelo menos uma das frutas e também ter dinheiro maior que 10.
 
 
 ```javascript
-var sexo = "M";
-var idade =23;
+var banana = true;
+var maca = true;
+var dinheiro = 11
 
-if (sexo == "M" && idade>=18){
-console.log("OK");
-}
-
-if (sexo == "M" || idade>=18){
-console.log("OK");
+if (
+(COLOQUE AQUI A CONDIÇÃO DAS FRUTAS) && COLOQUE AQUI A CONDIÇÃO DO DINHEIRO )
+{
+alert("Tem fruta");
+} else {
+	alert("Não tem fruta")
 }
 ```
