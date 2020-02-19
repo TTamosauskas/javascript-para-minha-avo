@@ -1,0 +1,53 @@
+Disparando ações
+================
+
+Nesta semana vamos começar a misturar Javascripr com HTML. Assim para as próximas aulas vou partir do princípio de que você já conhece HTML. Um dia quem saiba não tenhamos um **HTML para minha avó**.
+
+Vamos inicialmente aprender sobre Eventos Inline.. são atributos que, uma vez colocados no HTML podem ser usados para disparar funções.
+
+OnClick
+--------
+
+```html
+ <button onclick="mostraAlerta()">Me aperta</button>
+
+<script>
+function mostraAlerta() {alert("obrigado")}
+</script>
+```
+
+O que você precisa precisa prestar atenção aqui é o **onclick=" "**, pois é dentro dele que colocamos o nome da função mostraAlerta()
+
+Ou seja, quando o usuário clicar no botão, uma mensagem de agradecimento vai aparecer.
+
+OnMouseOver
+-----------
+
+```html
+ <button onmouseover="mostraAlerta()">Passe o mouse em cima</button>
+
+<script>
+function mostraAlerta() {alert("obrigado")}
+</script>
+```
+
+Tudo o que mudamos aqui foi o onmouseover=" ".. agora a função será acionada simplesmente passando o ponteido do mouse em cima do botão.
+
+OnKeyPress
+-----------
+
+```html
+
+<input onkeypress="mostraAlerta()"/>
+
+<script>
+function mostraAlerta() {alert("obrigado")}
+</script>
+```
+Neste último exemplo criamos um campo de texto. Cada vez que uma tecla do teclado for apertada sobre ele,  alerta aoparecerá.
+
+Existem muitos outros tipos de Eventos Inline, mas vamos parar por aqui. 
+
+Exercício
+=============
+Crie um botão que envie uma mensagem para o console.log dizendo o botão foi apertado.
