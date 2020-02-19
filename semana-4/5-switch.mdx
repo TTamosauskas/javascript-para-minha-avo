@@ -1,0 +1,33 @@
+SWITCH
+========
+
+Uma outra forma de criar condições nos nossos scripts é pelo uso do switch.
+
+👵🏻 Quando usamos ele em vez do if else?
+------------------------------------------
+
+Ele é muito útil quando temos muitas condições diferentes:
+
+```javascript
+  function retornaEstado(estado){
+    switch (estado) {
+    case "sp" : return "São Paulo";
+    case "rj" : return "Rio de Janeiro";
+    case "mg" : return "Minas Gerais";    
+    default : return "Outro Estado";
+      }
+   }
+   
+alert(
+retornaEstado("sp")
+)
+ ```
+
+O código acima cria uma função chamada retornaEstado e então chama ela dentro de um alert.
+ 
+Dentro da função o switch vai comparar o atributo com cada caso e então retornar uma resposta diferente para cada um deles.
+ 
+Exercício
+==========
+
+Crie uma função usando switch que retorne "Masculino" ou "Feminino" dependendo da entrada ser m ou f
