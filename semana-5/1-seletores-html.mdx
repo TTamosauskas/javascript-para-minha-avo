@@ -1,0 +1,75 @@
+Seletores HTML
+==============
+
+Uma das coisas mais legais que o javascript consegue fazer é manipular o código HTML de uma página.
+
+Para as próximas aulas vou partir do princípio de que você já conhece HTML. Um dia quem saiba não tenhamos um **HTML para minha avó**.
+
+Mas para mudaros algo precisamos primeiro capturar ele. 
+
+
+👵🏻 Como capturamos um elemento HTML para usar no javascript?
+----------------------------------------------------------------
+
+Existem várias formas de fazer isso. Considere o código abaixo:
+
+```html
+<div id="app">
+ <input type="text" id="nome" name="nome" class="nome" />
+ <button id="botao" class="adicionar">Adicionar</button>
+</div>
+```
+Nos exmeplos abaixo uma caixa de alerta deve **[object HTMLInputElement]** para sabermos que o código foi capturado:
+
+Pelo nome do Id
+------------------
+
+```html
+Elemento = document.getElementById('nome');
+alert(Elemento)
+```
+
+Pelo Seletor CSS
+--------------------
+
+```html
+Elemento = document.querySelector('#app');
+alert(Elemento)
+```
+
+Pelo Seletor CSS (Lista)
+-----------------------
+
+Este exmeplo retorn não apenas um, mas uma lista de itens que adentam um criterio
+
+```html
+Elemento = document.querySelectorAll('input')[0];
+alert(Elemento)
+```
+
+Note o [0] no final da linha. Isso significa que o Elemento será o primeiro item do array criado, pois podem haver mais de uma tag com esse nome.
+
+
+Pelo nome da Tag
+-----------------
+
+```html
+Elemento = document.getElementsByTagName('input')[0];
+alert(Elemento)
+```
+Novamente o [0] no final da linha significa que o Elemento será o primeiro item do array criado, pois podem haver mais de uma tag com esse nome.
+
+Pelo nome da Classe
+--------------------
+
+```html
+Elemento = document.getElementsByClassName('nome')[0];
+alert(Elemento)
+```
+
+Assim como no exemplo anterior o **[0]** no final da expressao retorna o primeiro item do array. Caso contrário retornaria o array inteiro.
+
+Exercício
+===========
+
+Crie um seletor do tipo getElementById, que selecione o id botão na pagina acima dada.
